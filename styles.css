@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lucida Grande';
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.main {
+  text-align: center;
+}
+.main h1 {
+  font-size: 80px;
+}
+.main p {
+  font-size: 30px;
+  font-style: normal;
+}
+
+.main img {
+  width: 25%;
+}
+
+.baner {
+  background-color: rgba(197, 194, 194, 0.322);
+  text-align: center;
+  height: 150px;
+}
+
+.baner-tengah h3 {
+  margin-bottom: 20px;
+}
+
+.gambar {
+  text-align: center;
+  margin-top: 50px;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+.gambar img {
+  width: 20%;
+  margin: 10px;
+}
+
+.contact-form {
+  padding-top: 50px;
+  background-color: rgba(197, 194, 194, 0.322);
+  text-align: center;
+}
+
+.contact-form h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px;
+}
+.contact-submit {
+  background-color: #ebdd19;
+  color: #202020;
+  border-radius: 10px;
+}
+
+footer h1 {
+  color: #b3aeb5;
+  /* font-size: 12px; */
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #202020;
+}
+.footer-right {
+  float: right;
+}
+.footer-right a {
+  color: rgb(230, 230, 230);
+}
